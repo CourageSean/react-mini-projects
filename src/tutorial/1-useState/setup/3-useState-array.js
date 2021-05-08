@@ -20,7 +20,7 @@ const deleteAll= () => {
 }
 const deleteMe= (id) => {
 
-  setPeople( [...people].filter(element => id !== element.id
+  setPeople((oldPeople)=> [...people].filter(element => id !== element.id
   )  )
 }
 
